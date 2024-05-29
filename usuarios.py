@@ -13,11 +13,17 @@ while True:
     opc = int(input("Ingrese opción: "))
 
     if opc == 1:
-        pass
+        print("Inicio sesión")
+        us = input("Ingrese nombre de usuario: ")
+        ct = input("Ingrese su contraseña")
+        if us in(user[])
+
+
+        
     elif opc == 2:
         print("REGISTRAR USUARIO")
         while True:
-           user = input("Ingrese nombre de usuario: ")
+           user = input("Ingrese nombre de usuario a usar: ")
            if len(user) > 3 and user.isalpha:
                print("usuario registrado!")
                break
